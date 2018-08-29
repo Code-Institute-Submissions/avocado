@@ -1,0 +1,23 @@
+.navbar-default {
+	background-image: none;
+	margin-bottom: 0;
+}
+
+.section-heading {
+	margin: 0;
+	margin-bottom: 50px;
+}
+
+.ct-label.ct-horizontal { position: relative; transform: rotate(45deg); transform-origin: left top; } 
+ 
+
+.custom-chart {
+	margin-bottom: 40px;
+}
+.section {
+	border-bottom: 1px solid #e6e6e6;
+	padding: 30px 0;
+}
+.section-paragraph {
+	line-height: 1.2;
+} 
