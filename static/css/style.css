@@ -15,9 +15,17 @@
 #region svg g .x .tick text{
 	margin-top: 30px;
 	padding: 5;
-	transform: rotate(90deg) !important;
-	text-align: center;
+	transform: rotate(90deg) translate(50px, -10px);
+	text-align: left;
 	margin-bottom: 40px;
+}
+
+#region svg {
+	height: 1200px;
+}
+
+#region svg g .x-axis-label {
+	transform: translate(500px, 735px);
 }
 
 .section {

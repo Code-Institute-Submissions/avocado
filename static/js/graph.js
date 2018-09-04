@@ -23,8 +23,8 @@ function show_AveragePrice(ndx) {
     var group = dim.group();
     
     dc.barChart("#AveragePrice")
-        .width(700)
-        .height(600)
+        .width(850)
+        .height(580)
         .margins({top: 30, right: 50, bottom: 50, left: 50})
         .dimension(dim)
         .group(group)
@@ -42,8 +42,8 @@ function show_year(ndx) {
     var group = dim.group();
     
     dc.barChart("#year")
-        .width(700)
-        .height(600)
+        .width(450)
+        .height(400)
         .margins({top: 30, right: 50, bottom: 50, left: 50})
         .dimension(dim)
         .group(group)
@@ -60,8 +60,8 @@ function show_region(ndx) {
     var group = dim.group();
     
     dc.barChart("#region")
-        .width(700)
-        .height(600)
+        .width(1000)
+        .height(650)
         .margins({top: 30, right: 50, bottom: 50, left: 50})
         .dimension(dim)
         .group(group)
@@ -78,8 +78,8 @@ function show_type(ndx) {
     var group = dim.group();
     
     dc.barChart("#type")
-        .width(700)
-        .height(600)
+        .width(400)
+        .height(400)
         .margins({top: 30, right: 50, bottom: 50, left: 50})
         .dimension(dim)
         .group(group)
